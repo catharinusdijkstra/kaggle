@@ -1,0 +1,31 @@
+{
+    "name": "Kaggle Dev CPU", // source: https://towardsdatascience.com/how-to-kaggle-the-engineer-way-act-1-vs-code-containers-b3279970c029
+    "image": "gcr.io/kaggle-images/python", // Remember to pull latest before rebuilding.
+    "mounts": [
+        "type=bind,source=${localWorkspaceFolder}/data/input,target=/kaggle/input",
+        "type=bind,source=${localWorkspaceFolder}/data/output,target=/kaggle/output"
+    ],
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        // Editing/dev process
+        "streetsidesoftware.code-spell-checker",
+        "wayou.vscode-todo-highlight",
+        "janisdd.vscode-edit-csv",
+        "davidanson.vscode-markdownlint",
+        // VCS helpers
+        "donjayamanne.githistory",
+        "eamodio.gitlens"
+    ],
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.pythonPath": "/opt/conda/bin/python"
+    },
+    "containerEnv": {
+        "KAGGLE_MODE": "DEV"
+    },
+    "postCreateCommand": ".devcontainer/setup.sh",
+    "postAttachCommand": ".devcontainer/setup-mounted.sh",
+    "devPort": 8888,
+    "shutdownAction": "none"
+}
