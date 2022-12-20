@@ -34,20 +34,8 @@ all functionalities in this repository can be run locally.
 
 ## Use of the Kaggle development container
 
-This repository can be run from within a Kaggle development container. Instructions 
-on how to use development containers in [`Visual Studio Code`]
-(https://code.visualstudio.com/) can be found in [`this tutorial`]
-(https://code.visualstudio.com/docs/devcontainers/tutorial).
+This repository can be run from within a [`Kaggle development container`](https://github.com/Kaggle/docker-python).
+In particular, the container is created from [`Kaggle's CPU-only image`](gcr.io/kaggle-images/python).
 
-please see t
-
-Run the following commands from the root folder of this repository
-
-```
-conda env update --file environment.yml
-conda activate kaggle
-```
-
-This will create and activate the Python environment *kaggle* from which
-all functionalities in this repository can be run.
-
+Instructions on how to use development containers in [`Visual Studio Code`](https://code.visualstudio.com/)
+can be found in [`this tutorial`](https://code.visualstudio.com/docs/devcontainers/tutorial).
