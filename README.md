@@ -1,11 +1,55 @@
-# Kaggle competition repository template
+# Kaggle competition repository
 
-## To do
+# README #
 
-1. Get [Kaggle's Docker Python container](https://github.com/Kaggle/docker-python) using the command *docker pull kaggle/python*.
-2. Clone this repository.
-3. After cloning this repository, please make sure to adjust the *username* and *key* in the *kaggle.json* file in the main directory to your own settings. Do this before using this repository any further. See the [Kaggle API repository](https://github.com/Kaggle/kaggle-api#api-credentials) for details on how to obtain the *kaggle.json* file and the *username* and *key* contained in it.
+## Introduction
+
+Welcome to my [`Kaggle`](https://www.kaggle.com/) competition repository. In this 
+repository, you find my solutions to [`Kaggle competitions`]
+(https://www.kaggle.com/competitions) I've worked on.
 
 ## Source
 
-The basic structure for this repository has been taken from [Vitalii Kozhukhivskyi's post in https://towardsdatascience.com/](https://towardsdatascience.com/how-to-kaggle-the-engineer-way-act-1-vs-code-containers-b3279970c029) and the corresponding [GitHub repository](https://github.com/Witalia008/kaggle-public).
+The basic structure for this repository has been taken from 
+[`Vitalii Kozhukhivskyi's post in https://towardsdatascience.com/`]
+(https://towardsdatascience.com/
+how-to-kaggle-the-engineer-way-act-1-vs-code-containers-b3279970c029) 
+and the corresponding [GitHub repository](https://github.com/Witalia008/kaggle-public).
+
+## Requirements
+
+1. An Integrated Development Environment (IDE) such as for example 
+[`Visual Studio Code`](https://code.visualstudio.com/).
+2. [`conda`](https://docs.conda.io/projects/conda/en/stable/).
+
+## Installation of this repository locally
+
+Run the following commands from the root folder of this repository
+
+```
+conda env update --file environment.yml
+conda activate kaggle
+```
+
+This will create and activate the Python environment *kaggle* from which
+all functionalities in this repository can be run locally.
+
+## Use of the Kaggle development container
+
+This repository can be run from within a Kaggle development container. Instructions 
+on how to use development containers in [`Visual Studio Code`]
+(https://code.visualstudio.com/) can be found in [`this tutorial`]
+(https://code.visualstudio.com/docs/devcontainers/tutorial).
+
+please see t
+
+Run the following commands from the root folder of this repository
+
+```
+conda env update --file environment.yml
+conda activate kaggle
+```
+
+This will create and activate the Python environment *kaggle* from which
+all functionalities in this repository can be run.
+
