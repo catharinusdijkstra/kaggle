@@ -11,7 +11,7 @@ I've worked on.
 ## Source
 
 The basic structure for this repository has been taken from 
-[`Vitalii Kozhukhivskyi's post in https://towardsdatascience.com/`](https://towardsdatascience.com/how-to-kaggle-the-engineer-way-act-1-vs-code-containers-b3279970c029) 
+[`Vitalii Kozhukhivskyi's post`](https://towardsdatascience.com/how-to-kaggle-the-engineer-way-act-1-vs-code-containers-b3279970c029) 
 and the corresponding [GitHub repository](https://github.com/Witalia008/kaggle-public).
 
 ## Requirements
