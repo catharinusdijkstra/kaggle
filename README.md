@@ -5,15 +5,16 @@
 ## Introduction
 
 Welcome to my [`Kaggle`](https://www.kaggle.com/) competition repository. In this 
-repository, you find my solutions to [`Kaggle competitions`]
-(https://www.kaggle.com/competitions) I've worked on.
+repository, you find my solutions to [`Kaggle competitions`](
+    https://www.kaggle.com/competitions)
+I've worked on.
 
 ## Source
 
 The basic structure for this repository has been taken from 
-[`Vitalii Kozhukhivskyi's post in https://towardsdatascience.com/`]
-(https://towardsdatascience.com/
-how-to-kaggle-the-engineer-way-act-1-vs-code-containers-b3279970c029) 
+[`Vitalii Kozhukhivskyi's post in https://towardsdatascience.com/`](
+    https://towardsdatascience.com/
+    how-to-kaggle-the-engineer-way-act-1-vs-code-containers-b3279970c029) 
 and the corresponding [GitHub repository](https://github.com/Witalia008/kaggle-public).
 
 ## Requirements
